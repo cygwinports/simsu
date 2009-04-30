@@ -1,0 +1,65 @@
+simsu
+------------------------------------------
+Simsu is a basic Sudoku game. You can switch between filling in notes 
+(pencil mode), or filling in answers (pen mode). To make it easier to 
+see where to place numbers, you can highlight all instances of a number. 
+You can also check your answers for correctness while playing. The game 
+stores your current notes and answers, so that you can pick up where you 
+left off the next time you play.
+
+Runtime requirements:
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libQtCore4-4.4.3-10
+  libQtGui4-4.4.3-10
+  libstdc++6-4.3.2-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
+
+Canonical website:
+  http://gottcode.org/simsu/
+
+Canonical download:
+  http://gottcode.org/simsu/
+
+-------------------------------------------
+
+Build instructions:
+  unpack simsu-1.2.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./simsu-1.2.1-X.cygport all
+
+This will create:
+  /usr/src/simsu-1.2.1-X-src.tar.bz2
+  /usr/src/simsu-1.2.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/simsu.sh
+  /usr/bin/simsu.exe
+  /usr/share/applications/simsu.desktop
+  /usr/share/doc/simsu/COPYING
+  /usr/share/doc/simsu/ChangeLog
+  /usr/share/doc/simsu/README
+  /usr/share/icons/hicolor/48x48/apps/simsu.png
+
+------------------
+
+Port Notes:
+
+----- version 1.2.1-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

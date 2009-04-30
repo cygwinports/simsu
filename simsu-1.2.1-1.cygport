@@ -1,0 +1,7 @@
+inherit qt4-qmake
+
+DESCRIPTION="Sudoku game for Qt4"
+HOMEPAGE="http://gottcode.org/simsu/"
+SRC_URI="http://gottcode.org/simsu/${P}-src.tar.bz2"
+
+CYGQMAKE4_ARGS="PREFIX=/usr"
