@@ -1,5 +1,5 @@
 category: Games
-requires: cygwin libgcc1 libQtCore4 libQtGui4 libstdc++6
+requires: libgcc1 libQtCore4 libQtGui4 libstdc++6
 sdesc: "Qt4 Sudoku game"
 ldesc: "Simsu is a basic Sudoku game. You can switch between filling in 
 notes (pencil mode), or filling in answers (pen mode). To make it easier 
