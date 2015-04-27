@@ -1,7 +1,7 @@
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="simsu"
-VERSION=1.2.3
+VERSION=1.3.1
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Qt Sudoku game"
@@ -14,4 +14,4 @@ time you play."
 HOMEPAGE="http://gottcode.org/simsu/"
 SRC_URI="http://gottcode.org/simsu/${NAME}-${VERSION}-src.tar.bz2"
 
-CYGQMAKE4_ARGS="PREFIX=/usr"
+CYGQMAKE5_ARGS="PREFIX=/usr"
